@@ -4,9 +4,10 @@ Site de la classe préparatoire littéraire (hypokhâgne et khâgne) du lycée J
 
 ## Pages
 
-- `index.html` : accueil (la prépa, le cursus, l'admission, les débouchés, l'internat, les dernières actualités, les témoignages, le contact)
+- `index.html` : accueil (la prépa, le cursus, la pédagogie, l'internat, l'admission, les débouchés, les dernières actualités, les témoignages, le contact)
 - `actualites.html` : les actualités, avec des filtres par thème et par classe et la lecture de chaque article (lien direct : `actualites.html#<id-article>`)
 - `temoignages.html` : les témoignages d'anciennes et d'anciens étudiants, en vidéo et en récit
+- `internat.html` : la vie à l'internat (cadre, informations pratiques, candidature, aides)
 
 ## Structure
 
