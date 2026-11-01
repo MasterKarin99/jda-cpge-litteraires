@@ -15,6 +15,28 @@
 body{margin:0;background:#FDFDFB}
 html{scroll-behavior:smooth}
 a{color:#1F5130}a:hover{color:#143820}
+@media (max-width: 720px){
+.site-nav{justify-content:center !important;padding:12px 16px 14px !important;gap:8px !important}
+.site-brand{width:100%;justify-content:center}
+.site-links{justify-content:center !important;gap:0 16px !important;font-size:14px !important}
+.site-links a{padding:8px 0 !important}
+.site-links a[href*="parcoursup"]{padding:9px 16px !important;margin:4px 0}
+.site-footer{flex-direction:column !important;text-align:center;align-items:center !important;padding:40px 24px !important}
+.site-footer>div{justify-content:center}
+.hero-logo{width:260px !important;padding:22px !important}
+[style*="padding: 56px;"],[style*="padding: 48px;"]{padding:28px 22px !important}
+[style*="padding: 40px;"],[style*="padding: 36px;"],[style*="padding: 32px 36px;"]{padding:24px 20px !important}
+[style*="padding: 104px 32px"],[style*="padding: 96px 32px"],[style*="padding: 88px 32px"]{padding-top:64px !important;padding-bottom:64px !important}
+[style*="padding: 104px 32px 40px"],[style*="padding: 72px 32px 40px"]{padding-bottom:32px !important}
+[style*="padding: 88px 32px 72px"],[style*="padding: 80px 32px 56px"],[style*="padding: 72px 32px 56px"]{padding-top:40px !important;padding-bottom:48px !important}
+[style*="gap: 28px 48px"]{gap:24px 16px !important}
+[style*="flex: 1 1 200px; display: flex; flex-direction: column; gap: 4px"]{flex:1 1 calc(50% - 8px) !important}
+[style*="font-size: 40px; font-weight: 600; line-height: 1"]{font-size:28px !important}
+[style*="flex: 1 1 200px; border: 1.5px solid #1A1712"]{flex:1 1 calc(50% - 7px) !important;font-size:18px !important;padding:16px !important}
+[role="group"]{flex-wrap:nowrap !important;overflow-x:auto;margin:0 -16px;padding:2px 16px 6px;scrollbar-width:none}
+[role="group"]>*{flex:0 0 auto}
+[style*="font-style: italic; font-size: 28px"]{font-size:22px !important}
+}
 </style>
 <style>[hidden]{display:none !important} *{box-sizing:border-box} img,video{max-width:100%} button:focus-visible,a:focus-visible{outline:3px solid #1F5130;outline-offset:3px}</style>
 
@@ -22,12 +44,12 @@ a{color:#1F5130}a:hover{color:#143820}
 <body>
 <div style="font-family: 'Roboto', system-ui, sans-serif; color: #1A1712; background: #FDFDFB; font-size: 17px; line-height: 1.6">
 <header style="border-bottom: 1px solid #DCE6D6; background: #FDFDFB">
-<nav aria-label="Navigation principale" style="max-width: 1240px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
-<a href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #1A1712">
+<nav class="site-nav" aria-label="Navigation principale" style="max-width: 1240px; margin: 0 auto; padding: 14px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a class="site-brand" href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #1A1712">
 <img src="assets/img/logo-mark.png" alt="Logo CPGE Lettres du lycée Jeanne d'Albret" style="width: 58px; height: 55px; object-fit: contain">
 <span style="display: flex; flex-direction: column; line-height: 1.15"><span style="font-family: 'Noto Serif', serif; font-size: 20px; font-weight: 600">Prépa littéraire</span><span style="font-size: 13px; color: #4A4438; letter-spacing: 0.04em">Lycée Jeanne d'Albret</span></span>
 </a>
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 22px; font-size: 15px; font-weight: 500">
+<div class="site-links" style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 22px; font-size: 15px; font-weight: 500">
 <a href="index.html" style="color: #1A1712; text-decoration: none; padding: 10px 0">Accueil</a>
 <a href="index.html" style="color: #1A1712; text-decoration: none; padding: 10px 0">Cursus</a>
 <a href="index.html" style="color: #1A1712; text-decoration: none; padding: 10px 0">Admission</a>
@@ -232,7 +254,7 @@ a{color:#1F5130}a:hover{color:#143820}
 </section>
 
 <footer style="background: #1A1712; color: #D4DCCF">
-<div style="max-width: 1240px; margin: 0 auto; padding: 48px 32px; display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between; align-items: center">
+<div class="site-footer" style="max-width: 1240px; margin: 0 auto; padding: 48px 32px; display: flex; flex-wrap: wrap; gap: 24px; justify-content: space-between; align-items: center">
 <div style="display: flex; align-items: center; gap: 16px">
 <img src="assets/img/logo-mark-white.jpg" alt="" style="width: 64px; height: 64px; border-radius: 14px; object-fit: cover; background: #FFFFFF">
 <p style="margin: 0; font-family: 'Noto Serif', serif; font-size: 22px; font-style: italic; color: #FDFDFB">Ma prépa Jeanne</p>
