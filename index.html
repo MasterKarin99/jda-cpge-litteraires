@@ -15,6 +15,7 @@
 body{margin:0;background:#FBF6EE}
 html{scroll-behavior:smooth}
 a{color:#1F5130}a:hover{color:#143820}
+.hero-photo{background-color:#1E3A2B;background-image:linear-gradient(90deg,rgba(24,46,34,0.94) 0%,rgba(24,46,34,0.82) 38%,rgba(24,46,34,0.35) 70%,rgba(24,46,34,0.15) 100%),url(assets/img/hero-classe.jpg);background-size:cover;background-position:center 40%}
 @media (max-width: 720px){
 .site-nav{justify-content:center !important;padding:12px 16px 14px !important;gap:8px !important}
 .site-brand{width:100%;justify-content:center}
@@ -23,7 +24,7 @@ a{color:#1F5130}a:hover{color:#143820}
 .site-links a[href*="parcoursup"]{padding:9px 16px !important;margin:4px 0}
 .site-footer{flex-direction:column !important;text-align:center;align-items:center !important;padding:40px 24px !important}
 .site-footer>div{justify-content:center}
-.hero-logo{width:260px !important;padding:22px !important}
+.hero-photo{background-image:linear-gradient(rgba(24,46,34,0.8),rgba(24,46,34,0.8)),url(assets/img/hero-classe.jpg) !important;background-position:60% center !important}
 [style*="padding: 56px;"],[style*="padding: 48px;"]{padding:28px 22px !important}
 [style*="padding: 40px;"],[style*="padding: 36px;"],[style*="padding: 32px 36px;"]{padding:24px 20px !important}
 [style*="padding: 104px 32px"],[style*="padding: 96px 32px"],[style*="padding: 88px 32px"]{padding-top:64px !important;padding-bottom:64px !important}
@@ -67,19 +68,16 @@ a{color:#1F5130}a:hover{color:#143820}
 </header>
 
 <!-- HERO -->
-<section id="accueil" style="max-width: 1240px; margin: 0 auto; padding: 88px 32px 72px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
-<div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
-<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #1F5130">CPGE littéraire · Saint-Germain-en-Laye</p>
-<h1 style="margin: 0; font-family: 'Noto Serif', serif; font-weight: 500; font-size: clamp(44px, 5.6vw, 78px); line-height: 1.05; letter-spacing: -0.01em">Hypokhâgne<br>&amp; Khâgne.<br><em style="font-style: italic; color: #1F5130">Ma prépa Jeanne.</em></h1>
-<p style="margin: 0; font-size: 20px; line-height: 1.55; color: #3D372D; max-width: 34em">Deux années pour approfondir les disciplines, acquérir une méthode solide et une vraie culture générale — puis choisir sa voie : grandes écoles, Sciences Po, écoles de commerce ou université, sans perdre une année.</p>
+<section id="accueil" class="hero-photo" aria-label="Accueil">
+<div style="max-width: 1240px; margin: 0 auto; padding: 120px 32px 112px; display: flex; flex-direction: column; gap: 28px; min-height: 560px; justify-content: center">
+<div style="max-width: 640px; display: flex; flex-direction: column; gap: 26px">
+<p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #CFE8C4">CPGE littéraire · Saint-Germain-en-Laye</p>
+<h1 style="margin: 0; font-family: 'Noto Serif', serif; font-weight: 500; font-size: clamp(44px, 5.6vw, 78px); line-height: 1.05; letter-spacing: -0.01em; color: #FBF6EE">Hypokhâgne<br>&amp; Khâgne.<br><em style="font-style: italic; color: #CFE8C4">Ma prépa Jeanne.</em></h1>
+<p style="margin: 0; font-size: 20px; line-height: 1.55; color: #F1EADD; max-width: 34em">Deux années pour approfondir les disciplines, acquérir une méthode solide et une vraie culture générale — puis choisir sa voie : grandes écoles, Sciences Po, écoles de commerce ou université, sans perdre une année.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
 <a href="#cursus" style="background: #A4472F; color: #FFFFFF; text-decoration: none; padding: 15px 26px; border-radius: 10px; font-weight: 600">Découvrir le cursus</a>
-<a href="#admission" style="border: 1.5px solid #2A211B; color: #2A211B; text-decoration: none; padding: 14px 26px; border-radius: 10px; font-weight: 600">Comment candidater</a>
+<a href="#admission" style="border: 1.5px solid #FBF6EE; color: #FBF6EE; text-decoration: none; padding: 14px 26px; border-radius: 10px; font-weight: 600">Comment candidater</a>
 </div>
-</div>
-<div style="flex: 1 1 340px; min-width: 0; display: flex; justify-content: center">
-<div class="hero-logo" style="width: 420px; max-width: 100%; background: #FFFFFF; border: 1px solid #E6DCC9; border-radius: 10px; padding: 36px 40px; display: flex; align-items: center; justify-content: center; box-shadow: 0 24px 60px rgba(120,72,40,0.14)">
-<img src="assets/img/logo-full.png" alt="Logo CPGE Lettres du lycée Jeanne d'Albret : un A calligraphié à l'encre noire et vert d'eau, signé Ma prépa Jeanne" style="width: 100%; max-width: 300px; height: auto; display: block">
 </div>
 </div>
 </section>
