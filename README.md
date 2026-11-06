@@ -8,6 +8,7 @@ Site de la classe préparatoire littéraire (hypokhâgne et khâgne) du lycée J
 - `actualites.html` : les actualités, avec des filtres par thème et par classe et la lecture de chaque article (lien direct : `actualites.html#<id-article>`)
 - `temoignages.html` : les témoignages d'anciennes et d'anciens étudiants, en vidéo et en récit
 - `internat.html` : la vie à l'internat (cadre, informations pratiques, candidature, aides)
+- `album.html` : l'album photo des promos, de 2012 à 2026
 
 ## Structure
 
